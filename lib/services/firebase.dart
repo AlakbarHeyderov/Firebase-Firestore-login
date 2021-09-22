@@ -1,7 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:loginapp/model/user_model.dart';
-import 'package:loginapp/services/auth_base.dart';
+
+import '../model/user_model.dart';
+import 'auth_base.dart';
 
 class FirebaseAuthServiced implements AuthBase {
   // final String? email;

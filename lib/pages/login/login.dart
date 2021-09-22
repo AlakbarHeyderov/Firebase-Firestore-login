@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:loginapp/pages/global/login_button.dart';
+import '../global/login_button.dart';
 import '../registration/email_registration/login_email.dart';
 import '../registration/number_registration/login_number_button.dart';
 

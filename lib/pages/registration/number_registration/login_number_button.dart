@@ -1,7 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:loginapp/pages/global/login_button.dart';
-import 'package:loginapp/pages/home/home.dart';
+
+import '../../global/login_button.dart';
+import '../../home/home.dart';
 
 // ignore: must_be_immutable
 class LoginNumberButton extends StatelessWidget {

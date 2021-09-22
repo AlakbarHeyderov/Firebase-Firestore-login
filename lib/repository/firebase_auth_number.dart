@@ -1,4 +1,4 @@
-import 'package:loginapp/api/firebase_number_auth.dart';
+import '../api/firebase_number_auth.dart';
 
 class FirebaseAuthNumberRepo {
   Future<void> signInNumber(

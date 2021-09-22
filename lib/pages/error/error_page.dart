@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:loginapp/pages/login/login.dart';
+
+import '../login/login.dart';
 
 class ErrorPage extends StatelessWidget {
   @override

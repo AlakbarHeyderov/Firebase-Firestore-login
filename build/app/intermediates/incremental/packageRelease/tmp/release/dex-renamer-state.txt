@@ -1,4 +1,0 @@
-#Tue Sep 21 21:49:19 AZT 2021
-base.0=/Users/aysel/Desktop/GitHub/loginapp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
