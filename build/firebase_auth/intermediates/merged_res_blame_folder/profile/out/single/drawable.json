@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/notification_bg.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/notification_bg_low.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/notification_tile_bg.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/notification_icon_background.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/aysel/Desktop/GitHub/loginapp/build/firebase_auth/intermediates/res/merged/profile/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/aysel/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    }
+]
