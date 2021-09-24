@@ -1,5 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../global/login_button.dart';
 import '../../home/home.dart';
@@ -8,6 +10,7 @@ import '../../home/home.dart';
 class LoginNumberButton extends StatelessWidget {
   var auth;
   var otp;
+  CollectionReference users = FirebaseFirestore.instance.collection('users');
 
   final TextEditingController _number = TextEditingController();
   final TextEditingController _name = TextEditingController();
@@ -62,12 +65,7 @@ class LoginNumberButton extends StatelessWidget {
                         Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => MyHomePage(
-                                user: user,
-                                name: _name.text,
-                                avto: _avto.text,
-                                avtoNumber: _avtoNumber.text,
-                                mobileNumberOrEMail: _number.text),
+                            builder: (context) => MyHomePage(),
                           ),
                           (route) => false,
                         );
@@ -104,16 +102,13 @@ class LoginNumberButton extends StatelessWidget {
                                       .signInWithCredential(credential);
                                   var user = result.user;
                                   if (user != null) {
+                                    final shared =
+                                        await SharedPreferences.getInstance();
+                                    shared.setBool('logged', true);
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => MyHomePage(
-                                              name: _name.text,
-                                              avto: _avto.text,
-                                              user: user,
-                                              avtoNumber: _avtoNumber.text,
-                                              mobileNumberOrEMail:
-                                                  _number.text)),
+                                          builder: (context) => MyHomePage()),
                                     );
                                   } else {
                                     print('Error');
@@ -140,5 +135,18 @@ class LoginNumberButton extends StatelessWidget {
         )),
       ),
     );
+  }
+
+  Future<void> addUser() {
+    return users
+        .add({
+          'name': _name.text, // John Doe
+          'avtoMarkaModel': _avto.text, // Stokes and Sons
+          'avtoNumber': _avtoNumber.text,
+          'contackt': _number.text
+          // 42
+        })
+        .then((value) => print("User Added"))
+        .catchError((error) => print("Failed to add user: $error"));
   }
 }
