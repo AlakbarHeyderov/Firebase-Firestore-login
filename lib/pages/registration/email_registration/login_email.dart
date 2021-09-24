@@ -7,6 +7,7 @@ import '../../home/home.dart';
 // ignore: must_be_immutable
 class LoginEmail extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
+
   TextEditingController name = TextEditingController();
   TextEditingController surname = TextEditingController();
   TextEditingController age = TextEditingController();

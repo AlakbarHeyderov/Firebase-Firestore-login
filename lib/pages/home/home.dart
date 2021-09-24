@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
@@ -25,6 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String surname;
   _MyHomePageState({required this.name, required this.surname});
   CollectionReference users = FirebaseFirestore.instance.collection('users');
+  //CollectionReference userss = FirebaseDatabase.
   Future<void> addUser() {
     return users
         .add({
