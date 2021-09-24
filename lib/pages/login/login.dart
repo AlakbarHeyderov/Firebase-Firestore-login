@@ -17,9 +17,9 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Login'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Login'),
+      // ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Center(
@@ -27,14 +27,14 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Login Page',
+                'Qeydiyyat novunu sec',
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
               ),
               const SizedBox(
                 height: 20,
               ),
               LoginButton(
-                name: 'Google ile daxil ol',
+                name: 'e-mail ve sifre',
                 onPress: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => LoginEmail()));
@@ -44,14 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                 textSize: 18,
               ),
               LoginButton(
-                name: 'Email ile daxil ol',
-                onPress: () {},
-                buttonColor: Colors.deepOrangeAccent,
-                textColor: Colors.white,
-                textSize: 18,
-              ),
-              LoginButton(
-                name: 'Mobil Nomre Ile',
+                name: 'Mobil Nomre',
                 onPress: () {
                   Navigator.push(
                     context,
