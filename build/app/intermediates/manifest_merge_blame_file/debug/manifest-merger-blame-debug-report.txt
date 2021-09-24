@@ -116,17 +116,17 @@
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
 76-->[:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 77            <meta-data
-77-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-78-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+77-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+78-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 80            <meta-data
-80-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-81-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+80-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+81-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+82-->[:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 83            <meta-data
 83-->[:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"

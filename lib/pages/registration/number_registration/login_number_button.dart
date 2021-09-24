@@ -11,8 +11,8 @@ class LoginNumberButton extends StatelessWidget {
 
   final TextEditingController _number = TextEditingController();
   final TextEditingController _name = TextEditingController();
-  final TextEditingController _surname = TextEditingController();
-  final TextEditingController _age = TextEditingController();
+  final TextEditingController _avto = TextEditingController();
+  final TextEditingController _avtoNumber = TextEditingController();
 
   LoginNumberButton({required this.auth, required this.otp});
   @override
@@ -28,17 +28,21 @@ class LoginNumberButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextField(
-                controller: _name, decoration: InputDecoration(hintText: 'Ad')),
+                controller: _name,
+                decoration: InputDecoration(hintText: ' Ad')),
             TextField(
-                controller: _surname,
-                decoration: InputDecoration(hintText: 'Soyad')),
+                controller: _avto,
+                decoration:
+                    InputDecoration(hintText: ' Avtomobil marka model')),
             TextField(
-                controller: _age, decoration: InputDecoration(hintText: 'Yas')),
+                controller: _avtoNumber,
+                decoration:
+                    InputDecoration(hintText: ' Avtomobilin qeydiyyat nisani')),
             TextField(
               controller: _number,
               decoration: InputDecoration(
                   hintText: '** *** ** **',
-                  labelText: '+994',
+                  labelText: ' +994',
                   prefixText: '+994  '),
               maxLength: 9,
             ),
@@ -55,15 +59,18 @@ class LoginNumberButton extends StatelessWidget {
                           await auth.signInWithCredential(credential);
                       var user = result.user;
                       if (user != null) {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => MyHomePage(
+                        Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => MyHomePage(
                                 user: user,
                                 name: _name.text,
-                                surname: _surname.text,
-                              ),
-                            ));
+                                avto: _avto.text,
+                                avtoNumber: _avtoNumber.text,
+                                mobileNumberOrEMail: _number.text),
+                          ),
+                          (route) => false,
+                        );
                       } else {
                         print('Error');
                       }
@@ -101,10 +108,12 @@ class LoginNumberButton extends StatelessWidget {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) => MyHomePage(
-                                                name: _name.text,
-                                                surname: _surname.text,
-                                                user: user,
-                                              )),
+                                              name: _name.text,
+                                              avto: _avto.text,
+                                              user: user,
+                                              avtoNumber: _avtoNumber.text,
+                                              mobileNumberOrEMail:
+                                                  _number.text)),
                                     );
                                   } else {
                                     print('Error');

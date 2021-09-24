@@ -6,8 +6,9 @@ INJECTED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/andr
 INJECTED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/android/app/src/main/AndroidManifest.xml:1:1-41:12
 MERGED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/android/app/src/main/AndroidManifest.xml:1:1-41:12
 MERGED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/aysel/.gradle/caches/transforms-2/files-2.1/a20be4a04e20a7650c7478728658bc1e/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /Users/aysel/.gradle/caches/transforms-2/files-2.1/935391cdbce4896a65e38d2a39bdcd30/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:2:1-17:12
@@ -88,10 +89,10 @@ MERGED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/androi
 MERGED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/android/app/src/main/AndroidManifest.xml:3:4-40:19
 MERGED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /Users/aysel/.gradle/caches/transforms-2/files-2.1/935391cdbce4896a65e38d2a39bdcd30/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:7:5-15:19
@@ -200,10 +201,12 @@ INJECTED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/andr
 INJECTED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/aysel/.gradle/caches/transforms-2/files-2.1/a20be4a04e20a7650c7478728658bc1e/multidex-2.0.0/AndroidManifest.xml:20:5-43
@@ -348,10 +351,10 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /U
 		ADDED from /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/android/app/src/debug/AndroidManifest.xml:9:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /Users/aysel/.gradle/caches/transforms-2/files-2.1/935391cdbce4896a65e38d2a39bdcd30/jetified-firebase-auth-ktx-21.0.1/AndroidManifest.xml:8:9-14:19
@@ -384,18 +387,18 @@ ADDED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firest
 		ADDED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
 		ADDED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_database] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] /Users/aysel/Desktop/GitHub/loginapp/Firebase-Firestore-login/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value

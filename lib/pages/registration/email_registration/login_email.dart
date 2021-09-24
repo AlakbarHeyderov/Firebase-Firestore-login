@@ -9,8 +9,8 @@ class LoginEmail extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   TextEditingController name = TextEditingController();
-  TextEditingController surname = TextEditingController();
-  TextEditingController age = TextEditingController();
+  TextEditingController avto = TextEditingController();
+  TextEditingController avtoNumber = TextEditingController();
   TextEditingController email = TextEditingController();
   TextEditingController password = TextEditingController();
   @override
@@ -30,11 +30,13 @@ class LoginEmail extends StatelessWidget {
                   controller: name,
                   decoration: InputDecoration(hintText: ' Ad')),
               TextField(
-                  controller: surname,
-                  decoration: InputDecoration(hintText: ' Soyad')),
+                  controller: avto,
+                  decoration:
+                      InputDecoration(hintText: ' Avtomobil marka model')),
               TextField(
-                  controller: age,
-                  decoration: InputDecoration(hintText: ' Yas')),
+                  controller: avtoNumber,
+                  decoration: InputDecoration(
+                      hintText: ' Avtomobilin qeydiyyat nisani')),
               TextField(
                   controller: email,
                   decoration: InputDecoration(hintText: ' E mail')),
@@ -52,10 +54,11 @@ class LoginEmail extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) => MyHomePage(
-                              user: user,
-                              name: name.text,
-                              surname: surname.text,
-                            ),
+                                user: user,
+                                name: name.text,
+                                avto: avto.text,
+                                avtoNumber: avtoNumber.text,
+                                mobileNumberOrEMail: email.text),
                           ),
                           (route) => false);
                     } else {
