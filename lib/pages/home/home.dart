@@ -1,20 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:loginapp/pages/app.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: must_be_immutable
 class MyHomePage extends StatefulWidget {
-  // User user;
-  // String name;
-  // String avto;
-  // String avtoNumber;
-  // String? mobileNumberOrEMail;
-
   MyHomePage({
     Key? key,
-    // required this.user,
-    // required this.name,
-    // required this.avto,
-    // required this.avtoNumber,
-    // required this.mobileNumberOrEMail,
   }) : super(key: key);
 
   @override
@@ -31,7 +23,15 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: ElevatedButton(
           child: Text('test'),
-          onPressed: () {},
+          onPressed: () async {
+            final shared = await SharedPreferences.getInstance();
+            shared.setBool('logged', false);
+            FirebaseAuth.instance.signOut();
+            Navigator.pushAndRemoveUntil(
+                context,
+                MaterialPageRoute(builder: (context) => Registration()),
+                (route) => false);
+          },
         ),
       ),
     );

@@ -36,12 +36,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^1.6.0
   firebase_auth: ^3.1.1
-  bloc: ^7.1.0
+  # bloc: ^7.1.0
   firebase_database: ^7.2.2
   cloud_firestore: ^2.5.2
   get_it: ^7.2.0
   shared_preferences: ^2.0.8
   provider: ^6.0.0
+  loading_animations: ^2.2.0
+  rolling_switch: ^0.0.2
+  cool_alert: ^1.1.0
 
 dev_dependencies:
   flutter_test:

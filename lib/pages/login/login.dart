@@ -34,12 +34,12 @@ class _LoginPageState extends State<LoginPage> {
                 height: 20,
               ),
               LoginButton(
-                name: 'e-mail ve sifre',
+                name: 'E-mail',
                 onPress: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => LoginEmail()));
                 },
-                buttonColor: Colors.blue,
+                buttonColor: Colors.black,
                 textColor: Colors.white,
                 textSize: 18,
               ),
@@ -56,8 +56,8 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   );
                 },
-                buttonColor: Colors.deepOrangeAccent,
-                textColor: Colors.white,
+                buttonColor: Color(0xffffb248),
+                textColor: Colors.black,
                 textSize: 18,
               ),
             ],

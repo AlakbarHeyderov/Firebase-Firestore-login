@@ -13,12 +13,11 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => AuthChange()..checkAuth(),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        // title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
         home: AuthChangePage(),
-        // home: Registration(),
       ),
     );
   }
@@ -37,9 +36,12 @@ class Registration extends StatelessWidget {
                 height: 40,
                 child: ElevatedButton(
                   onPressed: () {},
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all(Color(0xffffb248))),
                   child: Text(
                     'Daxil ol',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 )),
             SizedBox(
@@ -53,9 +55,11 @@ class Registration extends StatelessWidget {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => LoginPage()));
                   },
+                  style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Colors.black)),
                   child: Text(
                     'Qeydiyyatdan kec',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   )),
             ),
           ],

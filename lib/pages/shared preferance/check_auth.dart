@@ -10,6 +10,7 @@ class AuthChange extends ChangeNotifier {
   Stream<AuthState> get authState => _authController.stream;
 
   void checkAuth() async {
+    await Future.delayed(Duration(seconds: 3));
     try {
       _authController.add(AuthState.initial);
       final shared = await SharedPreferences.getInstance();
